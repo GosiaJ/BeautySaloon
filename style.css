@@ -1,0 +1,200 @@
+
+body
+{
+	background-color: #696969;
+	color: #ffffff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width: 1000px;
+	margin: auto;
+}
+.rectangle
+{
+	width: 96%;
+	margin: 20px;
+	text-align: center;
+	color: #FF69B4;
+	font-family: 'Dancing Script', cursive;
+}
+
+#logo
+{
+	float: right;
+	font-size: 50px;
+	width:60%;
+	text-align: left;
+	color: #FF69B4;	
+}
+#zegar
+{
+	float: right;
+	font-size: 50px;
+	text-align: left;
+	color: 	#FFF5EE;
+}
+
+.mainRectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+}
+
+.square1
+{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.tile1
+{
+	width: 200px;
+	margin: 10px;
+	height: 100px;
+	background-color: #FF69B4;
+	text-align: center;
+}
+
+.tile1:hover
+{
+	background-color: #ee58a3;
+}
+
+.square2
+{
+	width: 75%;
+	float: left;
+	text-align: center;
+}
+
+.tile5
+{
+	width: 650px;
+	margin: 10px;
+	background-color: #666666;
+	text-align: justify;
+	color: #ffffff;
+	font-size: 26px;
+	padding: 30px ;
+	height: auto;
+}
+
+.fb
+{
+	float: right;
+	width: 100px;
+	margin: 10px;
+	height: 142px;
+	background-color: #4668b3;
+	text-align: center;
+}
+.fb:hover
+{
+	background-color: #3557a2;
+}
+.insta
+{
+	float: right;
+	width: 100px;
+	margin: 10px;
+	height: 142px;
+	background-color: #FF69B4;
+	text-align: center;
+}
+.insta:hover
+{
+	background-color: #ee58a3;
+}
+
+a.socialmedia
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;	
+	width: 100px;
+	height: 142px;
+}
+
+a.backtomainmenu
+{
+	color: #FF69B4;
+	text-decoration: none;
+}
+
+input[type=text]
+{
+	padding:5px;
+	background-color: #dd47a2; 
+	color: white;
+}
+
+input[type=password]
+{
+	padding:5px;
+	background-color: #dd47a2; 
+	color: white;
+}
+
+input[type=submit]
+{
+	padding:5px;
+	background-color: #FF69B4; 
+	color: white;
+	width: 100px;
+	height: 50px;
+	padding: 10px;
+	size: 30px;
+}
+
+a.teillink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;	
+	width: 200px;
+	height: 1100px;
+}
+ .error
+ {
+ 	color:red;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+
+@media screen and (max-width: 1024px)
+{
+	.rectangle
+	{
+		width: 50%;
+	}
+	.container
+	{
+		width: 100%;
+	}
+	.square1
+	{
+		width: 100%;
+	}
+	.square2
+	{
+		width: 90%;
+	}
+	.insta
+	{
+		float: left;
+		width: 10%;
+		height: 142px;
+	}
+	.fb
+	{
+		float: left;
+		width: 10%;
+		height: 142px;
+	}
+
+
+}
